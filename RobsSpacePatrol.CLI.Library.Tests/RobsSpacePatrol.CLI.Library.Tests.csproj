@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <AssemblyVersion>2026.10.9.2344</AssemblyVersion>
+    <FileVersion>2026.10.9.2344</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.10.1" />
+    <PackageReference Include="Moq" Version="4.21.0" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="4.0.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="xunit.v3" Version="4.0.2" />
+    <PackageReference Include="xunit.v3.assert" Version="4.0.2" />
+    <PackageReference Include="xunit.v3.common" Version="4.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RobsSpacePatrol.CLI.Library\RobsSpacePatrol.CLI.Library.csproj" />
+    <PackageReference Include="RobsSpacePatrol.Library" Version="1.0.7" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <OutputType>Exe</OutputType>
+    <AssemblyVersion>2026.10.9.2299</AssemblyVersion>
+    <FileVersion>2026.10.9.2299</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Properties\**" />
+    <EmbeddedResource Remove="Properties\**" />
+    <None Remove="Properties\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RobsSpacePatrol.CLI.Library\RobsSpacePatrol.CLI.Library.csproj" />
+    <PackageReference Include="RobsSpacePatrol.Library" Version="1.0.7" />
+  </ItemGroup>
+
+</Project>

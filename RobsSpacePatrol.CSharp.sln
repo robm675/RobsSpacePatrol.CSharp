@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.10.12224.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobsSpacePatrol.CLI", "RobsSpacePatrol.CLI\RobsSpacePatrol.CLI.csproj", "{31F7D5E7-7D17-4784-B666-7CCB1B129AC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobsSpacePatrol.CLI.Library", "RobsSpacePatrol.CLI.Library\RobsSpacePatrol.CLI.Library.csproj", "{5FD7224B-24A8-41FC-B549-A5277CAA2D63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobsSpacePatrol.CLI.Library.Tests", "RobsSpacePatrol.CLI.Library.Tests\RobsSpacePatrol.CLI.Library.Tests.csproj", "{8C554193-0D06-4801-9891-26730676FEC0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31F7D5E7-7D17-4784-B666-7CCB1B129AC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31F7D5E7-7D17-4784-B666-7CCB1B129AC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31F7D5E7-7D17-4784-B666-7CCB1B129AC3}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{31F7D5E7-7D17-4784-B666-7CCB1B129AC3}.Debug|x64.Build.0 = Debug|Any CPU
+		{31F7D5E7-7D17-4784-B666-7CCB1B129AC3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{31F7D5E7-7D17-4784-B666-7CCB1B129AC3}.Debug|x86.Build.0 = Debug|Any CPU
+		{31F7D5E7-7D17-4784-B666-7CCB1B129AC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31F7D5E7-7D17-4784-B666-7CCB1B129AC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31F7D5E7-7D17-4784-B666-7CCB1B129AC3}.Release|x64.ActiveCfg = Release|Any CPU
+		{31F7D5E7-7D17-4784-B666-7CCB1B129AC3}.Release|x64.Build.0 = Release|Any CPU
+		{31F7D5E7-7D17-4784-B666-7CCB1B129AC3}.Release|x86.ActiveCfg = Release|Any CPU
+		{31F7D5E7-7D17-4784-B666-7CCB1B129AC3}.Release|x86.Build.0 = Release|Any CPU
+		{5FD7224B-24A8-41FC-B549-A5277CAA2D63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FD7224B-24A8-41FC-B549-A5277CAA2D63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FD7224B-24A8-41FC-B549-A5277CAA2D63}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5FD7224B-24A8-41FC-B549-A5277CAA2D63}.Debug|x64.Build.0 = Debug|Any CPU
+		{5FD7224B-24A8-41FC-B549-A5277CAA2D63}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5FD7224B-24A8-41FC-B549-A5277CAA2D63}.Debug|x86.Build.0 = Debug|Any CPU
+		{5FD7224B-24A8-41FC-B549-A5277CAA2D63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FD7224B-24A8-41FC-B549-A5277CAA2D63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FD7224B-24A8-41FC-B549-A5277CAA2D63}.Release|x64.ActiveCfg = Release|Any CPU
+		{5FD7224B-24A8-41FC-B549-A5277CAA2D63}.Release|x64.Build.0 = Release|Any CPU
+		{5FD7224B-24A8-41FC-B549-A5277CAA2D63}.Release|x86.ActiveCfg = Release|Any CPU
+		{5FD7224B-24A8-41FC-B549-A5277CAA2D63}.Release|x86.Build.0 = Release|Any CPU
+		{8C554193-0D06-4801-9891-26730676FEC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C554193-0D06-4801-9891-26730676FEC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C554193-0D06-4801-9891-26730676FEC0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8C554193-0D06-4801-9891-26730676FEC0}.Debug|x64.Build.0 = Debug|Any CPU
+		{8C554193-0D06-4801-9891-26730676FEC0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8C554193-0D06-4801-9891-26730676FEC0}.Debug|x86.Build.0 = Debug|Any CPU
+		{8C554193-0D06-4801-9891-26730676FEC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C554193-0D06-4801-9891-26730676FEC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C554193-0D06-4801-9891-26730676FEC0}.Release|x64.ActiveCfg = Release|Any CPU
+		{8C554193-0D06-4801-9891-26730676FEC0}.Release|x64.Build.0 = Release|Any CPU
+		{8C554193-0D06-4801-9891-26730676FEC0}.Release|x86.ActiveCfg = Release|Any CPU
+		{8C554193-0D06-4801-9891-26730676FEC0}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
