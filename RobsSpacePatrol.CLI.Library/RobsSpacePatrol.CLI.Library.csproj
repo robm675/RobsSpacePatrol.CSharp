@@ -13,7 +13,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="RobsSpacePatrol.Library" Version="1.0.9" />
+    <PackageReference Include="RobsSpacePatrol.Library" Version="1.0.12" />
   </ItemGroup>
 
 </Project>
