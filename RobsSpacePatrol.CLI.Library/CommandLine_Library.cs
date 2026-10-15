@@ -662,7 +662,7 @@ public class CommandLine_Library : ICommandLine
 
     private string runDAM(string[] Commands)
     {
-        var res = _game.DAM();
+        var res = _game.GetDamageReport();
         if (res.eCommandResult != eCommandResult.OK)
             return CLI_Messages.InternalErrorMessage;
 
