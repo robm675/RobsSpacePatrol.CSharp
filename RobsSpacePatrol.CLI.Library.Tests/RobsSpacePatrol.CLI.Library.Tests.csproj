@@ -3,8 +3,8 @@
   <PropertyGroup>
     <TargetFramework>net10.0-windows7.0</TargetFramework>
     <Nullable>enable</Nullable>
-    <AssemblyVersion>2026.10.9.2344</AssemblyVersion>
-    <FileVersion>2026.10.9.2344</FileVersion>
+    <AssemblyVersion>2026.10.15.2347</AssemblyVersion>
+    <FileVersion>2026.10.15.2347</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
@@ -21,7 +21,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\RobsSpacePatrol.CLI.Library\RobsSpacePatrol.CLI.Library.csproj" />
-    <PackageReference Include="RobsSpacePatrol.Library" Version="1.0.12-ci.38468431485.1" />
+    <PackageReference Include="RobsSpacePatrol.Library" Version="1.0.15" />
   </ItemGroup>
 
 </Project>
