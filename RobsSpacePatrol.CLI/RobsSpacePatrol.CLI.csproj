@@ -20,7 +20,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\RobsSpacePatrol.CLI.Library\RobsSpacePatrol.CLI.Library.csproj" />
-    <PackageReference Include="RobsSpacePatrol.Library" Version="1.0.15" />
+    <PackageReference Include="RobsSpacePatrol.Library" Version="1.0.15-ci.38805741431.1" />
   </ItemGroup>
 
 </Project>
