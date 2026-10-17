@@ -8,11 +8,6 @@ using RobsSpacePatrol.Library.Factories;
 
 namespace RobsSpacePatrol.CLI;
 
-//THIS IS A SIMPLE CHANGE
-//THIS IS A SIMPLE CHANGE
-//THIS IS A SIMPLE CHANGE
-//THIS IS A SIMPLE CHANGE
-
 public class RunGame
 {
     private bool GameDone = false;
